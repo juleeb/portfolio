@@ -11,17 +11,35 @@
     <nav>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link active" href="index.html">About</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
     </nav>
     <main>
+        <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn-success">Submit</button>
+        </div>
+        </form>
     </main>
     <footer>
     </footer>
