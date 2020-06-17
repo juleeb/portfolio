@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Julee's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Julee's Portfolio/Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width">
 </head>
+
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-                <div class="col--12 col-sm-12 col-md-12 col-lg-12 col-xl-12">header</div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <nav class="navbar navbar-light justify-content-center" style="background-color: lightpink;">
+            <div class="col--12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><h1>header</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <nav class="navbar navbar-light justify-content-center" style="background-color: lightskyblue;">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                          <a class="nav-link active" href="#">Active</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
-                      </ul>
-                    </nav>
+                    </ul>
+                </nav>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h2>Contact Me for More Information</h2>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <form class="form-horizontal" action="/action_page.php">
                     <div class="form-group">
@@ -32,14 +45,18 @@
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <form class="form-horizontal" action="/action_page.php">
                     <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email">
                     </div>
                 </form>
-            </div> 
+            </div>
+        </div>
+        <div class="row">
             <div class="col">
                 <form class="form-horizontal" action="/action_page.php">
                     <div class="form-group">
@@ -48,13 +65,14 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                          <button type="submit" class="btn-success">Submit</button>
-                    </div>
+                            <button type="submit" class="btn-outline btn-lg">Submit</button>
+                        </div>
                 </form>
             </div>
         </div>
     </div>
     <footer>
+        Footer
     </footer>
 </body>
 </html>
