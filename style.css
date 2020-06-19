@@ -56,7 +56,6 @@ footer {
 }
 @media all and (max-width: 768px) {
     body {
-        background-color: lawngreen;
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
@@ -75,7 +74,6 @@ footer {
 }
 @media all and (max-width: 992px min-width: 769px) {
     body {
-        background-color: lawngreen;
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
@@ -90,7 +88,6 @@ footer {
 }
 @media all and (max-width: 1200px) {
     body {
-        background-color: lawngreen;
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
