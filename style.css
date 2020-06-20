@@ -59,7 +59,6 @@ footer {
     text-align: center;
     left: 0;
     bottom: 0;
-    padding: 12px;
 }
 @media all and (max-width: 768px) {
     body {
