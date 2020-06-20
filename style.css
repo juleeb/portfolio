@@ -1,9 +1,16 @@
 body {
     padding: 20px;
-    font-family: Arial;
+    font-family: 'Playfair Display', serif;
     background-color: #EBF5FB;
 }
 h1 {
+    text-align: center;
+    border-style: solid;
+    border-color: lightskyblue;
+    margin-top: 22px;
+    height: 54px;
+}
+h4 {
     text-align: center;
 }
 img {
