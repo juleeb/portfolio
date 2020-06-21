@@ -3,7 +3,7 @@ About the Project:
 
 Creating portfolio for projects display.
 
-<img src="indexsm.png" width="100">
+<img src="indexsm.png" width="500">
 ![picture](indexlg.png)
 ![picture](portfoliosm.png)
 ![picture](portfoliolg.png)
