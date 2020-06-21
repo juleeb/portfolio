@@ -7,9 +7,9 @@ Image Preview:
 
 <img src="indexsm.png" width="500" height="700">
 <img src="indexlg.png" width="500">
-<img src="portfoliosm.png" width="500">
+<img src="portfoliosm.png" width="500" height="700">
 <img src="portfoliolg.png" width="500">
-<img src="contactsm.png" width="500">
+<img src="contactsm.png" width="500" height="700">
 <img src="contactlg.png" width="500">
 
 Descriptions of Project:
