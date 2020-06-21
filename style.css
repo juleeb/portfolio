@@ -17,6 +17,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+p {
+    text-align: center;
+}
 a:link {
     color: white;
 }
@@ -62,26 +65,26 @@ footer {
 }
 @media all and (max-width: 768px) {
     body {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
     }
     section {
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin-left: 0;
+        margin-right: 0;
     }
     aside {
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 @media all and (max-width: 992px min-width: 769px) {
     body {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
     }
     section {
         margin-top: 20px;
@@ -94,8 +97,8 @@ footer {
 }
 @media all and (max-width: 1200px) {
     body {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
     }
     section {
         margin-top: 20px;
