@@ -4,11 +4,11 @@ About the Project:
 Creating portfolio for projects display.
 
 <img src="indexsm.png" width="500">
-![picture](indexlg.png)
-![picture](portfoliosm.png)
-![picture](portfoliolg.png)
-![picture](contactsm.png)
-![picture](contactlg.png)
+<img src="indexlg.png" width="500">
+<img src="portfoliosm.png" width="500">
+<img src="portfoliolg.png" width="500">
+<img src="contactsm.png" width="500">
+<img src="contactlg.png" width="500">
 
 Descriptions of Project:
 
