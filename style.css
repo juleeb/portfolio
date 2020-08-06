@@ -15,7 +15,6 @@ h4 {
 }
 h6 {
     text-align: center;
-    color: black;
 }
 img {
     max-width: 100%;
@@ -25,7 +24,7 @@ p {
     text-align: center;
 }
 a:link {
-    color: white;
+    color: black;
 }
 a:visited {
     color: darkblue;
